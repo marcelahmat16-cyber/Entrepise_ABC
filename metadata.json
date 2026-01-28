@@ -1,0 +1,7 @@
+{
+  "name": "ABC ENTREPRISE",
+  "description": "Site officiel de l'Atelier de Câblage et de Bobinage (ACB), expert en électromécanique à N'Djamena depuis 2007. Spécialiste du bobinage de moteurs, fourniture de pièces et conseil technique.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

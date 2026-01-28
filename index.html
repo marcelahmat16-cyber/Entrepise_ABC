@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>ABC ENTREPRISE - Atelier de Câblage et de Bobinage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+          font-family: 'Inter', sans-serif; 
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          overflow-x: hidden;
+        }
+        h1, h2, h3 { font-family: 'Oswald', sans-serif; }
+        .bg-industrial-blue { background-color: #0B2545; }
+        .text-industrial-blue { color: #0B2545; }
+        .bg-industrial-orange { background-color: #F28C28; }
+        .text-industrial-orange { color: #F28C28; }
+        .border-industrial-orange { border-color: #F28C28; }
+        
+        /* Assure que les sections ne sont pas cachées par la navbar fixe */
+        section { scroll-margin-top: 5rem; }
+
+        /* Correction pour éviter tout dépassement d'élément */
+        * {
+          box-sizing: border-box;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden w-full">
+    <div id="root" class="w-full overflow-x-hidden"></div>
+</body>
+</html>
